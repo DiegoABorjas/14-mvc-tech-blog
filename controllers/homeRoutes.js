@@ -33,12 +33,13 @@ router.get('/post/:id', async (req, res) => {
       include: [
         {
           model: User,
-          attributes: ['name'],
+          attributes: ['name', 'id'],
         },
       ],
     });
 
     const post = postData.get({ plain: true });
+    // const canEdit = post.user_id 
 
     res.render('post', {
       ...post,
