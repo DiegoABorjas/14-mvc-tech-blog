@@ -3,13 +3,9 @@
   <p>{{content}}</p>
   <p>Created by {{user.name}} on {{format_date date_created}}</p>
 
-  <p>User ID: {{user.id}}</p>
-
-
-  {{#if logged_in}}
+  {{#if isPostOwner}}
     <p>
       <button class="btn btn-primary">Edit Post</button>
     </p>
   {{/if}}
-
 </div>
