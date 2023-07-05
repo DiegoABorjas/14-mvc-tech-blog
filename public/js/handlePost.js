@@ -45,7 +45,6 @@ const editFormHandler = async (event) => {
       alert('Failed to update post');
     }
   }
-  else console.log('NO DATA ID FOUND!')
 };
 
 const delButtonHandler = async (event) => {
