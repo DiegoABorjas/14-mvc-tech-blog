@@ -83,9 +83,9 @@ A link to the [code](https://github.com/DiegoABorjas/14-mvc-tech-blog):
 https://github.com/DiegoABorjas/14-mvc-tech-blog
 ```
 
-A link to the deployed [Application](link goes here):
+A link to the deployed [Application](https://mvc-tech-blog-db-f03ab6b04d13.herokuapp.com/):
 ```
-link goes here
+https://mvc-tech-blog-db-f03ab6b04d13.herokuapp.com/
 ```
 
 ## License
