@@ -17,8 +17,7 @@ const newCommentHandler = async (event) => {
     });
   
     if (response.ok) {
-    //   document.location.reload();
-    console.log(response.body)
+      document.location.reload();
     } else {
       alert('Failed to create comment');
     }
